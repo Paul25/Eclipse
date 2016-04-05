@@ -28,50 +28,30 @@ public class MainMyClass {
 //		for (int i=0; i<arr.length;i++){
 //			arr[i]= (int)(Math.random()*21);
 ////			System.out.println(arr[i]);
-		final long millisInAday = 24 * 60 * 60 * 1000;
-		final int startYear=1970;
-		final int daysInAyear=365;
-		final int monthInAyear=12;
-						
-		long timeMs=System.currentTimeMillis();
-		long daysFromStart=timeMs/millisInAday; 
-		long currentYear=startYear + daysFromStart/daysInAyear;
-		long quantityYears=currentYear-startYear;
-		long day=daysFromStart/quantityYears/daysInAyear+1;
-		long currentMonth=quantityYears/monthInAyear;
-			
-		int month = (int) currentMonth;
-        switch(month){
-            case 0:
-        	    System.out.println(day+" "+"January"+" "+currentYear );
-        	break;
-        	case 1:
-        		System.out.println(day+" "+"February"+" "+currentYear );
-        	break;
-        	case 2:
-        		System.out.println(day+" "+"March"+" "+currentYear );
-        	break;
-        	case 3:
-        		System.out.println(day+" "+"April"+" "+currentYear );
-        	break;
-        	case 4:
-        		System.out.println(day+" "+"May"+" "+currentYear );
-        	break;
-        	case 5:
-        		System.out.println(day+" "+"June"+" "+currentYear );
-        	break;
-        	default:
-        		System.out.println("N/A format of the data");
-        	break;
-        
-        }
-           //5
+		
+		String st="Hello B";
+		String str="Hello B";
+		String str1=new String("Hi");
+		String str2=new String("Hi");
+		str=str2;
+		//System.out.println(str2==str);
+		String test="Hello, my dear friend.";
+		String test1="Hello, my dear friend.";
+		test.equals(test1);
+		//Count how many chars are present in the string.
+		//read-match
+		char [] symb=test.toCharArray();
+		System.out.println(symb[1]);
+		System.out.println(test.split("m"));
+		System.out.println(test.split("m")[1]);
+		System.out.println(test.split("m"));
         
 		
 		
 		
 		
 		}
+
 		
 	}
 
