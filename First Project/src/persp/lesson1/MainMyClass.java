@@ -38,11 +38,15 @@ public class MainMyClass {
 		String test="Hello, my dear friend.";
 		String test1="Hello, my dear friend.";
 		test.equals(test1);
-		//Count how many chars are present in the string.
+		//Count how many chars are present in the string. Enter from keyboard. (use while from 1-1000 (unicode), method indexOf from 0. for(char), while in to it -1 -stop). Null can't be entered.
 		//read-match
+		//load documentation.
+		// every symbols should be bigger to appr number in the unicode table. Number should be random. sout to screen.
+		// unscrypt task;???????
+		// How many variants of happy tickets.(sum of fisrt three numbers should be egual another three numbers)from 0 to 999999
 		char [] symb=test.toCharArray();
 		System.out.println(symb[1]);
-		System.out.println(test.split("m"));
+		System.out.println(test.split("m"));  //link of array will be out.
 		System.out.println(test.split("m")[1]);
 		System.out.println(test.split("m"));
         
